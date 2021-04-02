@@ -1,0 +1,2 @@
+D:\Software\Development\TDM-GCC-64\bin\ar.exe qc libsdl2main.a  CMakeFiles/sdl2main.dir/__/src/main/windows/SDL_windows_main.c.obj
+D:\Software\Development\TDM-GCC-64\bin\ranlib.exe libsdl2main.a

@@ -1,0 +1,3 @@
+"D:\Software\Development\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\stitches.dir/objects.a
+D:\Software\Development\TDM-GCC-64\bin\ar.exe cr CMakeFiles\stitches.dir/objects.a @CMakeFiles\stitches.dir\objects1.rsp
+D:\Software\Development\TDM-GCC-64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\stitches.dir/objects.a -Wl,--no-whole-archive  -o stitches.exe -Wl,--out-implib,libstitches.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\stitches.dir\linklibs.rsp

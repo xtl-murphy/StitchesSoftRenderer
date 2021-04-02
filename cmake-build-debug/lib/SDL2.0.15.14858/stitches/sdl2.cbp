@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sdl2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\SDL2.0.15.14858\;CMake Files\lib\SDL2.0.15.14858\stitches\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sdl2">
+				<Option output="D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/libsdl2.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_THREAD_SAFE"/>
+					<Add directory="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/stitches/../include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 sdl2"/>
+					<CompileFile command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sdl2/fast">
+				<Option output="D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/libsdl2.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_THREAD_SAFE"/>
+					<Add directory="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/stitches/../include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 sdl2/fast"/>
+					<CompileFile command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sdl2main">
+				<Option output="D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/libsdl2main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_THREAD_SAFE"/>
+					<Add directory="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/stitches/../include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 sdl2main"/>
+					<CompileFile command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sdl2main/fast">
+				<Option output="D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/libsdl2main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_THREAD_SAFE"/>
+					<Add directory="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/stitches/../include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="D:/Software/Development/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 sdl2main/fast"/>
+					<CompileFile command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/Development/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Documents/git_work/StitchesSoftRenderer/cmake-build-debug/lib/SDL2.0.15.14858/stitches/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/SDL.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/SDL_assert.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/SDL_dataqueue.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/SDL_dataqueue.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/SDL_error.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/SDL_hints.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/SDL_log.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/atomic/SDL_atomic.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/atomic/SDL_spinlock.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/SDL_audio.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/SDL_audiocvt.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/SDL_audiodev.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/SDL_audiotypecvt.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/SDL_mixer.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/SDL_wave.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/SDL_wave.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/disk/SDL_diskaudio.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/disk/SDL_diskaudio.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/dsp/SDL_dspaudio.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/dsp/SDL_dspaudio.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/dummy/SDL_dummyaudio.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/dummy/SDL_dummyaudio.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/wasapi/SDL_wasapi.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/wasapi/SDL_wasapi.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/wasapi/SDL_wasapi_win32.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/winmm/SDL_winmm.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/audio/winmm/SDL_winmm.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/core/windows/SDL_hid.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/core/windows/SDL_hid.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/core/windows/SDL_windows.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/core/windows/SDL_windows.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/core/windows/SDL_xinput.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/core/windows/SDL_xinput.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/cpuinfo/SDL_cpuinfo.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/dynapi/SDL_dynapi.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/dynapi/SDL_dynapi.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/events/SDL_clipboardevents.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/events/SDL_displayevents.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/events/SDL_dropevents.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/events/SDL_events.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/events/SDL_gesture.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/events/SDL_keyboard.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/events/SDL_mouse.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/events/SDL_quit.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/events/SDL_touch.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/events/SDL_windowevents.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/file/SDL_rwops.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/filesystem/windows/SDL_sysfilesystem.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/haptic/SDL_haptic.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/haptic/windows/SDL_dinputhaptic.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/haptic/windows/SDL_windowshaptic.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/haptic/windows/SDL_xinputhaptic.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/joystick/SDL_gamecontroller.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/joystick/SDL_joystick.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/joystick/steam/SDL_steamcontroller.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/joystick/steam/SDL_steamcontroller.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/joystick/windows/SDL_dinputjoystick.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/joystick/windows/SDL_mmjoystick.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/joystick/windows/SDL_rawinputjoystick.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/joystick/windows/SDL_windows_gaming_input.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/joystick/windows/SDL_windowsjoystick.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/joystick/windows/SDL_xinputjoystick.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/e_atan2.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/e_exp.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/e_fmod.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/e_log.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/e_log10.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/e_pow.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/e_rem_pio2.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/e_sqrt.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/k_cos.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/k_rem_pio2.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/k_sin.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/k_tan.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/s_atan.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/s_copysign.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/s_cos.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/s_fabs.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/s_floor.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/s_scalbn.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/s_sin.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/libm/s_tan.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/loadso/windows/SDL_sysloadso.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/main/windows/SDL_windows_main.c">
+			<Option target="sdl2main"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/power/SDL_power.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/power/windows/SDL_syspower.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/SDL_d3dmath.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/SDL_d3dmath.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/SDL_render.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/SDL_yuv_sw.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/direct3d/SDL_render_d3d.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/direct3d/SDL_shaders_d3d.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/direct3d/SDL_shaders_d3d.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/direct3d11/SDL_render_d3d11.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/direct3d11/SDL_shaders_d3d11.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/direct3d11/SDL_shaders_d3d11.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/opengl/SDL_render_gl.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/opengl/SDL_shaders_gl.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/opengl/SDL_shaders_gl.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/opengles/SDL_render_gles.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/opengles2/SDL_render_gles2.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/opengles2/SDL_shaders_gles2.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/opengles2/SDL_shaders_gles2.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/psp/SDL_render_psp.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_blendfillrect.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_blendfillrect.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_blendline.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_blendline.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_blendpoint.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_blendpoint.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_drawline.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_drawline.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_drawpoint.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_drawpoint.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_render_sw.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_rotate.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/render/software/SDL_rotate.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/stdlib/SDL_crc32.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/stdlib/SDL_getenv.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/stdlib/SDL_iconv.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/stdlib/SDL_malloc.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/stdlib/SDL_qsort.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/stdlib/SDL_stdlib.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/stdlib/SDL_string.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/stdlib/SDL_strtokr.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/thread/SDL_thread.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/thread/generic/SDL_syscond.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/thread/windows/SDL_syscond_srw.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/thread/windows/SDL_sysmutex.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/thread/windows/SDL_syssem.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/thread/windows/SDL_systhread.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/thread/windows/SDL_systls.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/timer/SDL_timer.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/timer/windows/SDL_systimer.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_RLEaccel.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_blit.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_blit.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_blit_0.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_blit_1.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_blit_A.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_blit_N.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_blit_auto.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_blit_auto.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_blit_copy.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_blit_copy.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_blit_slow.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_blit_slow.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_bmp.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_clipboard.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_egl.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_fillrect.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_pixels.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_rect.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_shape.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_stretch.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_surface.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_video.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_vulkan_utils.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/SDL_yuv.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/dummy/SDL_nullevents.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/dummy/SDL_nullframebuffer.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/dummy/SDL_nullvideo.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/dummy/SDL_nullvideo.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsclipboard.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsclipboard.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsevents.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsevents.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsframebuffer.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsframebuffer.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowskeyboard.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowskeyboard.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsmessagebox.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsmessagebox.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsmodes.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsmodes.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsmouse.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsmouse.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsopengl.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsopengl.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsopengles.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsopengles.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsshape.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsshape.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsvideo.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsvideo.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsvulkan.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowsvulkan.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowswindow.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/windows/SDL_windowswindow.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/yuv2rgb/yuv_rgb.c">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/src/video/yuv2rgb/yuv_rgb.h">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Documents/git_work/StitchesSoftRenderer/lib/SDL2.0.15.14858/stitches/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\SDL2.0.15.14858\stitches\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

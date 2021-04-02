@@ -1,0 +1,3 @@
+"D:\Software\Development\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\sdl2.dir/objects.a
+D:\Software\Development\TDM-GCC-64\bin\ar.exe cr CMakeFiles\sdl2.dir/objects.a @CMakeFiles\sdl2.dir\objects1.rsp
+D:\Software\Development\TDM-GCC-64\bin\gcc.exe  -g  -shared -o libsdl2.dll -Wl,--out-implib,libsdl2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\sdl2.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\sdl2.dir\linklibs.rsp

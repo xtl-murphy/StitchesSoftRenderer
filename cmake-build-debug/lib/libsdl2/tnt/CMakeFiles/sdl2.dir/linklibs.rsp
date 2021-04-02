@@ -1,0 +1,1 @@
+ -ldinput8 -ldxguid -lgdi32 -limagehlp -limm32 -lole32 -loleaut32 -lshell32 -luser32 -luuid -lversion -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
